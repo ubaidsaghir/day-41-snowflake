@@ -131,7 +131,7 @@ SELECT SYSTEM$PIPE_STATUS('AWSPIPE');
 
 
 SELECT * FROM customers;
-
+--How to check pipe history failed or success.
 SELECT * FROM SNOWFLAKE.ACCOUNT_USAGE.COPY_HISTORY WHERE PIPE_NAME='AWSPIPE';
 
 
